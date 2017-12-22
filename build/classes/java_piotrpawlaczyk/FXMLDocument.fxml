@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="612.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="java_piotrpawlaczyk.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="mapa" layoutX="326.0" layoutY="198.0" prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="60.0" layoutX="340.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Grafika/restauracja.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="add_klient" layoutX="14.0" layoutY="102.0" mnemonicParsing="false" onAction="#add_klient_f" prefHeight="33.0" prefWidth="149.0" text="Dodaj klienta" />
+      <Button fx:id="rm_klient" layoutX="186.0" layoutY="102.0" mnemonicParsing="false" onAction="#rm_klient_f" prefHeight="33.0" prefWidth="149.0" text="Usun klienta" />
+      <Button fx:id="AddDostawca" layoutX="361.0" layoutY="102.0" mnemonicParsing="false" onAction="#add_dostawca_f" prefHeight="33.0" prefWidth="149.0" text="Dodaj dostawce" />
+      <Button fx:id="rm_dostawca" layoutX="551.0" layoutY="102.0" mnemonicParsing="false" onAction="#rm_dostawca_f" prefHeight="33.0" prefWidth="149.0" text="Usun dostawce" />
+      <Button fx:id="add_zamowienie" layoutX="105.0" layoutY="155.0" mnemonicParsing="false" onAction="#add_zamowienie_f" prefHeight="33.0" prefWidth="149.0" text="Dodaj zamowienie" />
+      <TextArea fx:id="Wyswietlacz" layoutX="28.0" layoutY="268.0" prefHeight="304.0" prefWidth="279.0" />
+      <Text fill="#335730" fontSmoothingType="LCD" layoutX="52.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RESTAURACJA SPHINX">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font></Text>
+      <Button fx:id="Wroc" layoutX="467.0" layoutY="155.0" mnemonicParsing="false" onAction="#wroc_f" prefHeight="33.0" prefWidth="149.0" text="Wroc do restauracji" />
+      <Text layoutX="52.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--- INFORMACJE ----">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="70.0" fitWidth="293.0" layoutX="460.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Grafika/Sphinx.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

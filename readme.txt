@@ -1,5 +1,3 @@
-Piotr Pawlaczyk, 127245 , grupa I4 , wtorek 16:50 - 18:20
-
 Aby uruchomic program nalezy w panelu kontrolnym wybrac przycisk "Dodaj klienta". Nastepnie mo¿emy dodaæ zamówienia (lub poczekaæ a¿ w¹tek dodanego klienta je wygeneruje ) i dostawców.
 Nastêpnie program generuje ich pozycje na mapie z odpowiednimi grafikami i widzimy jak dostawca rozwozi zamówienia , które pobra³ z restauracji.
 Po kliknieciu na klienta b¹dŸ dostawcê na "wyœwietlaczu" wyœwietlaj¹ siê informacjê o nim. Po klikniêciu na ikonkê danego klienta mo¿na go usun¹æ, podobnie jest z dostawc¹.
